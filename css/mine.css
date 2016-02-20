@@ -17,7 +17,7 @@ html {
 }
 .menu{
   margin: 0 auto;
-  width: 59%;
+  width: 60%;
 }
 
 .menu img{
@@ -26,7 +26,6 @@ html {
 }
 
 .menu ul{
-  width:78%;
   float: right;
   margin-top:1.5em;
 }
@@ -35,10 +34,12 @@ html {
 .menu li {
   list-style: none;
   display: inline;
+  font-weight: 400;
 }
 
 .menu .active {
 	color:#000000;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -116,7 +117,7 @@ button:hover {
 .packages h2 {
   font-size: 2.75em;
   font-weight: 300;
-  padding-top:3em;
+  padding-top:1em;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -129,18 +130,18 @@ button:hover {
 .packages li {
   list-style: none;
   display: inline;
-  width:20em;
+  width: 33.3333333%;
   float:left;
 }
 
 .packages img{
-  height:8em;
-  width:8em;
+  height:7em;
+  width:7em;
 }
 
 .packages h3{
-  font-size: 1.5em;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 1.563rem;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -149,7 +150,7 @@ button:hover {
 
 .contact{
   background-color: #FFFFFF;
-  height: 3.25em;
+  height: 20em;
   width: 100%;
   text-align: center;
   margin: 0 auto;
@@ -163,7 +164,7 @@ button:hover {
 
 .connect h5{
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 400;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 
@@ -191,12 +192,25 @@ button:hover {
   text-decoration: none;
 }
 
+.contact .fa-twitter {
+    color: #55acee;
+}
+
+.contact .fa-facebook {
+    color: #4c66a4;
+}
+
+.contact .fa-instagram {
+    color: #3f729b;
+}
+
 .contact a:hover {
   color:#545454;
 }
 
 .contact p {
   color:##838994;
+  font-size: 0.9rem;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
