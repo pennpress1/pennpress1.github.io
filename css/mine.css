@@ -1,0 +1,202 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Navigation Section */
+
+.masthead{
+  background-color: #FFFFFF;
+  width:100%;
+  height: 4.25em;
+  position: fixed;
+  z-index: 9999;
+  border-bottom: solid thin #000000;
+}
+.menu{
+  margin: 0 auto;
+  width: 59%;
+}
+
+.menu img{
+  float:left;
+  height:3.75em;
+}
+
+.menu ul{
+  width:60%;
+  float: right;
+  margin-top:1.5em;
+}
+
+
+.menu li {
+  list-style: none;
+  display: inline;
+}
+
+.menu .active {
+	color:#000000;
+  text-decoration: none;
+}
+
+
+.menu a {
+	color:#a8a8a8;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.menu a:hover {
+	color:#545454;
+}
+
+/* Content Intro Section */
+
+.introduction {
+  background-image: url('http://thinkful-ed.github.io/karma-clone/img/first-background.jpg');
+  height: 45.938rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  overflow: auto;
+}
+
+.introduction h1 {
+  font-size: 3.125em;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.introduction h3 {
+  font-size: 1.563em;
+  font-weight: 200;
+  margin-top: -1em;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.content {
+  color:#ffffff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding-top:15em;
+}
+
+
+
+button {
+  border-radius: 4px;
+  color: #ffffff;
+  background: #f15a29;
+  padding: 18px 30px 18px 30px;
+  text-decoration: none;
+  border:none;
+  font-size: 1.125em;
+}
+
+button:hover {
+  background: #f0382b;
+  text-decoration: none;
+}
+
+/* Content Section */
+
+.packages{
+  background-color: #FFFFFF;
+  height: 25em;
+  width: 100%;
+  text-align: center;
+}
+
+.packages h2 {
+  font-size: 3.125em;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.packages ul{
+  width:59%;
+  margin: 0 auto;
+}
+
+.packages li {
+  list-style: none;
+  display: inline;
+  width:20em;
+  float:left;
+}
+
+.packages img{
+  height:8em;
+  width:8em;
+}
+
+.packages h3{
+  font-size: 1.5em;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Footer Section */
+
+.contact{
+  background-color: #FFFFFF;
+  height: 3.25em;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact .connect{
+  margin: 0 auto;
+  width:59%;
+  border-top: solid thin #ececec;
+}
+
+.connect h5{
+  font-size: 1em;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+.connect ul{
+  margin-left:-2em;
+  margin-top:-2em;
+}
+
+.contact li{
+  list-style: none;
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
+}
+
+.contact a {
+  color:#a8a8a8;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color:#545454;
+}
+
+.contact p {
+  color:##838994;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
