@@ -57,7 +57,7 @@ html {
 /* Content Intro Section */
 
 .introduction {
-  background-image: url('/img/first-background.jpg');
+  background-image: url("../img/first-background.jpg");
   height: 45.938rem;
   background-size: cover;
   background-repeat: no-repeat;
