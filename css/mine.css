@@ -26,7 +26,7 @@ html {
 }
 
 .menu ul{
-  width:60%;
+  width:78%;
   float: right;
   margin-top:1.5em;
 }
@@ -114,8 +114,9 @@ button:hover {
 }
 
 .packages h2 {
-  font-size: 3.125em;
+  font-size: 2.75em;
   font-weight: 300;
+  padding-top:3em;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
